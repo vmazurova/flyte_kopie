@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "member_details",
+  "info": {
+    "singularName": "member-detail",
+    "pluralName": "member-details",
+    "displayName": "MemberDetails"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "we": {
+      "type": "float"
+    },
+    "height": {
+      "type": "float"
+    },
+    "bmi": {
+      "type": "float"
+    },
+    "body_fat_percentage": {
+      "type": "float"
+    },
+    "goals": {
+      "type": "string"
+    },
+    "last_update": {
+      "type": "datetime"
+    }
+  }
+}
